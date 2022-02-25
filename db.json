@@ -19,11 +19,13 @@
   "users": [
     {
       "id": "1",
+      "name": "user 1",
       "body": "some user comment about item",
       "itemId": "1"
     },
     {
       "id": "2",
+      "name": "user 2",
       "body": "some user comment about item",
       "itemId": "1"
     }
