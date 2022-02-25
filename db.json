@@ -1,31 +1,28 @@
 {
-  "posts": [
+  "@context": "https://schema.org/",
+  "@type": "DataFeed",
+  "name": "Company directory",
+  "dateModified": "2015-01-02",
+  "dataFeedElement": [
     {
-      "id": 1,
-      "title": "Post 1"
+      "@type": "DataFeedItem",
+      "dateCreated": "2014-07-01",
+      "item": {
+        "@type": "Person",
+        "identifier": "1",
+        "name": "Alice",
+        "email": "alice@example.com"
+      }
     },
     {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
+      "@type": "DataFeedItem",
+      "dateModified": "2015-01-02",
+      "item": {
+        "@type": "Person",
+        "identifier": "2",
+        "name": "Bob",
+        "email": "bob@example.com"
+      }
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "jaclark"
-  }
+  ]
 }
