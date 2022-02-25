@@ -1,16 +1,31 @@
 {
-    "version": "https://jsonfeed.org/version/1.1",
-    "title": "My Example Feed",
-    "items": [
-        {
-            "id": 1,
-            "content_text": "This is a second item.",
-            "url": "https://example.org/second-item"
-        },
-        {
-            "id": 2,
-            "content_html": "<p>Hello, world!</p>",
-            "url": "https://example.org/initial-post"
-        }
-    ]
+  "items": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "jasonclark"
+  }
 }
