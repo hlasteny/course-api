@@ -1,41 +1,43 @@
 {
-	"version": "https://jsonfeed.org/version/1.1",
-	"title": "My Example API Feed",
-	"items": [{
-			"id": "1",
-			"name": "Post 1",
-			"description": "Lorem ipsum dolor sit amet"
-		},
-		{
-			"id": "2",
-			"name": "Post 2",
-			"description": "Lorem ipsum dolor sit amet"
-		},
-		{
-			"id": "3",
-			"name": "Post 3",
-			"description": "Lorem ipsum dolor sit amet"
-		}
-	],
-	"users": [{
-			"id": "1",
-			"name": "user 1",
-			"body": "some user comment about item",
-			"itemId": "1"
-		},
-		{
-			"id": "2",
-			"name": "user 2",
-			"body": "some user comment about item",
-			"itemId": "1"
-		}
-	],
-	"collection": {
-		"@context": "https://schema.org/",
-		"@type": "Collection",
-		"name": "jasonclark's API",
-		"creator": "jasonclark",
-		"about": "A collection of items or things or stuff",
-		"url": "https://www.jasonclark.info"
-	}
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "My Example API Feed",
+  "items": [
+    {
+      "id": "1",
+      "name": "Post 1",
+      "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "id": "2",
+      "name": "Post 2",
+      "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "id": "3",
+      "name": "Post 3",
+      "description": "Lorem ipsum dolor sit amet"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "user 1",
+      "body": "some user comment about item",
+      "itemId": "1"
+    },
+    {
+      "id": "2",
+      "name": "user 2",
+      "body": "some user comment about item",
+      "itemId": "1"
+    }
+  ],
+  "collection": {
+    "@context": "https://schema.org/",
+    "@type": "Collection",
+    "name": "jasonclark's API",
+    "creator": "jasonclark",
+    "about": "A collection of items or things or stuff",
+    "url": "https://www.jasonclark.info"
+  }
 }
