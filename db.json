@@ -1,7 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "My Example API Feed",
-  "home_page_url": "https://example.org/",
   "items": [
     {
       "id": "1",
