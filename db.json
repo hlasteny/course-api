@@ -32,8 +32,12 @@
       "itemId": "1"
     }
   ],
-  "provider": {
-    "name": "jasonclark",
+  "collection": {
+    "@context": "https://schema.org/",
+    "@type": "Collection",
+    "name": "jasonclark's API",
+    "creator": "jasonclark",
+    "about": "A collection of items e.g. creative works or products."
     "url": "https://www.jasonclark.info"
   }
 }
