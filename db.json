@@ -1,32 +1,42 @@
 {
   "items": [
     {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
       "id": "1",
-      "name": "Post 1",
+      "name": "Item 1",
       "description": "Lorem ipsum dolor sit amet"
     },
     {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
       "id": "2",
-      "name": "Post 2",
+      "name": "Item 2",
       "description": "Lorem ipsum dolor sit amet"
     },
     {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
       "id": "3",
-      "name": "Post 3",
+      "name": "Item 3",
       "description": "Lorem ipsum dolor sit amet"
     }
   ],
   "users": [
     {
+      "@context": "https://schema.org",
+      "@type": "Person",
       "id": "1",
       "name": "user 1",
-      "body": "some user comment about item",
+      "description": "some user comment about item",
       "itemId": "1"
     },
     {
+      "@context": "https://schema.org",
+      "@type": "Person",
       "id": "2",
       "name": "user 2",
-      "body": "some user comment about item",
+      "description": "some user comment about item",
       "itemId": "1"
     }
   ],
