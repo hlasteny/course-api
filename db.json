@@ -4,22 +4,22 @@
       "@context": "https://schema.org",
       "@type": "CreativeWork",
       "id": "1",
-      "name": "Item 1",
-      "description": "Lorem ipsum dolor sit amet"
+      "name": "Soccer ball",
+      "description": "Item for football playing"
     },
     {
       "@context": "https://schema.org",
       "@type": "CreativeWork",
       "id": "2",
-      "name": "Item 2",
-      "description": "Lorem ipsum dolor sit amet"
+      "name": "Skateboard",
+      "description": "Item for creative playing"
     },
     {
       "@context": "https://schema.org",
       "@type": "CreativeWork",
       "id": "3",
-      "name": "Item 3",
-      "description": "Lorem ipsum dolor sit amet"
+      "name": "Laptop",
+      "description": "Item for innovating and building"
     }
   ],
   "users": [
