@@ -31,7 +31,7 @@ Use `.` to access deep properties
 ```
 GET /items?title=json-server&author=typicode
 GET /items?id=1&id=2
-GET /comments?users.name=user%1
+GET /users?users.name=user%1
 ```
 
 ## Paginate
@@ -54,7 +54,7 @@ Add `_sort` and `_order` (ascending order by default)
 
 ```
 GET /items?_sort=views&_order=asc
-GET /items/1/comments?_sort=id&_order=asc
+GET /items/1/users?_sort=id&_order=asc
 ```
 
 For multiple fields, use the following format:
@@ -125,7 +125,7 @@ GET /userss/1?_expand=items
 GET /db
 ```
 
-### Homepage
+## Homepage
 
 Returns default index file or serves `./public` directory
 
