@@ -111,17 +111,17 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "id": "1",
-      "name": "user 1",
-      "description": "some user comment about item",
+      "name": "Johan Cruyff",
+      "description": "Love this ball! It is perfect for juggling.",
       "itemId": "1"
     },
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "id": "2",
-      "name": "user 2",
-      "description": "some user comment about item",
-      "itemId": "1"
+      "name": "Steve Jobs",
+      "description": "This laptop is okay. My mac laptop was better.",
+      "itemId": "3"
     },
     {
       "@context": "https://schema.org",
